@@ -165,9 +165,48 @@ main section {
   line-height: 28px; /* 175% */
 }
 .summary-container hr {
-    margin: 30px 0;
+  margin: 30px 0;
 }
-.download-cv{
-    text-align: center;
-    margin-top: 50px;
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* footer section */
+.footer-section {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 130px;
+  background-color: #fff8f3;
+  padding: 0 230px;
+  gap: 100px;
+}
+.footer-column {
+  max-width: 560px;
+  margin-top: 130px;
+}
+input,
+textarea {
+  margin-top: 24px;
+  padding-top: 18px;
+  padding-left: 30px;
+  padding-right: 350px;
+  padding-bottom: 18px;
+
+  color: var(--Dark-03, #757575);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  border: none;
+  border-radius: 5px;
+}
+form button {
+  margin-top: 24px;
+  margin-bottom: 130px;
+}
+.icons {
+  margin-top: 30px;
+  display: flex;
+  gap: 25px;
 }
