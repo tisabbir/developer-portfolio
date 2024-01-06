@@ -24,12 +24,11 @@
 }
 
 .section-description {
-    color: #757575;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
-
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
 }
 
 /* nav related css */
@@ -93,11 +92,13 @@ nav a {
   max-width: 500px;
 }
 /* main section  */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
-
+main section {
+  margin-top: 130px;
+}
 /* about section */
 .about {
   padding: 130px;
@@ -106,15 +107,60 @@ main{
   margin: 130px 0px;
 }
 .about-info-container {
-    display: flex;
-    justify-content: space-between;
-
+  display: flex;
+  justify-content: space-between;
 }
 .about-info {
-    text-align: center;
+  text-align: center;
 }
 
 /* What i do section */
 #what-i-do-description {
-    padding: 30px 150px;
+  padding: 30px 150px;
+}
+.skills-container {
+  display: flex;
+  border-radius: 10px;
+  gap: 24px;
+}
+.skill {
+  padding: 33px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description {
+  color: var(--Dark-03, #757575);
+}
+
+/* Resume Section */
+.summary-container {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.summary-heading {
+  color: var(--Dark-02, #474747);
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.summary-title {
+    color: var(--Dark-02, #474747);
+font-size: 25px;
+font-weight: 700;
+margin-top: 0px;
+margin-bottom: 10px;
+}
+.summary-subtitle {
+    color: var(--Dark-03, #757575);
+font-size: 20px;
+font-weight: 600;
+}
+.summary-description {
+    color: var(--Dark-03, #757575);
+font-size: 16px;
+font-weight: 400;
+line-height: 28px; /* 175% */
 }
