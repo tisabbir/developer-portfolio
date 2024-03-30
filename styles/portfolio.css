@@ -6,6 +6,11 @@
   color: #fd6e0a;
 }
 
+.container-box {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 .btn-primary {
   border-radius: 5px;
   background: #fd6e0a;
@@ -60,9 +65,10 @@ nav a {
 /* header related css */
 .header {
   background: #fff8f3;
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
 }
 .banner {
   padding: 30px 30px 0px 150px;
@@ -210,3 +216,20 @@ form button {
   display: flex;
   gap: 25px;
 }
+
+/* Responsive Design */
+.hide {
+  display: none;
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 576px) {
+  .skills-container {
+    flex-direction: column;
+  }
+  #what-i-do-description {
+    padding: 20px;
+  }
+}
+
+/* Med */
